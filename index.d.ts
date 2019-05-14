@@ -324,8 +324,12 @@ export declare const UNSUPPORTED_MEDIA_TYPE = 415;
  */
 export declare const USE_PROXY = 305;
 /**
+ * This status code is not specified in any RFCs, that is only use internal status checking.
+ */
+export declare const INVALID_RESPONSE_DATA = 598;
+/**
  * Documentation @ https://httpstatuses.com/599
- * 
+ *
  * This status code is not specified in any RFCs, but is used by some HTTP proxies to signal a network connect timeout behind the proxy to a client in front of the proxy.
  */
 export declare const NETWORK_CONNECT_TIMEOUT_ERROR = 599;
